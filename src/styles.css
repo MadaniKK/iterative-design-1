@@ -23,14 +23,15 @@ main > h1 {
 html, body {
   height: 100%;
   width: 100%;
-  background: url(https://www.toptal.com/designers/subtlepatterns/uploads/sakura.png);
+  background: url(https://www.toptal.com/designers/subtlepatterns/uploads/paisley.png);
 }
 
 .text {
     border: 5px solid navajowhite;
     -webkit-box-shadow: 5px 5px 25px 14px rgba(0,0,0,0.77); 
     box-shadow: 5px 5px 25px 14px rgba(0,0,0,0.77);
-    background-color: lightskyblue;
+    /* background-color: lightskyblue; */
+    background-color: white;
     
 }
 
@@ -45,7 +46,7 @@ h1{
     margin-bottom: 40px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 50pt;
-    color: lightseagreen;
+    color: goldenrod;
 }
 
 p{
