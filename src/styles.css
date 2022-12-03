@@ -22,7 +22,8 @@ main > h1 {
 
 html, body {
   height: 100%;
-  width: 100%;
+  width: 95%;
+  margin:auto;
   background: url(https://www.toptal.com/designers/subtlepatterns/uploads/paisley.png);
 }
 
