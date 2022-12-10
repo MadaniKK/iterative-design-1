@@ -22,16 +22,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>iterative-design</title>
   <link href="bootstrap.css" rel="stylesheet" type="text/css" />
   <link href="styles.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
+  <form>
+    <input class="home" type="button" value="Home" onclick="history.back()">
+  </form>
   <div class="m-2 p-2">
-    <form>
-			<input class="home" type="button" value="Home" onclick="history.back()">
-		</form>
+    
     <h1 class="text-center">Iterative Design</h1>
   </div>
 
@@ -43,7 +44,7 @@
         The application's primary purpose would be to integrate different networks and provide a coherent service. 
         Our exemplifications for the iterative process flow include sketching initial ideas and combining them into wireframes, creating an interactive high-fidelity mockup, collecting and incorporating feedback, 
         and having test users try out on UserTesting.com. 
-        
+
       </p>
       <ul>
         <li><strong>Project Goal</strong>: Go through the full process of designing an app for a startup's concept</li>
@@ -199,15 +200,17 @@ href="https://drive.google.com/file/d/1paRhIqAZY9vnFt_6FzJENZAUDzqOzhgQ/view?usp
         <li>The coupon button is not obvious, try to change it to the mailbox message button and put the offer push
           inside, while also receiving other messages</li>
         <li>The ongoing charging button does not determine if there is an ongoing order, which is more obvious by using
-          a small red-circled number on the side.</li>
+          a red-circled number on the side.</li>
         <li>Consider placing the ongoing charging in the lower left corner and the app logo in place.</li>
         <li>The search bar could be larger for users to use while driving.</li>
         <li>The pins on the map should provide thumbnail information when clicked.</li>
       </ul>
       </p>
     </div>
-
+    
   </div>
+  <div id="footer" class="text-center"><p>@ Flying Squirrel 2022</p></div>
+  <br>
   <script src="script.js"></script>
 
   <!--
